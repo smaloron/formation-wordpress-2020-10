@@ -1,4 +1,5 @@
 <article class="col-md-8 p-3">
+    <a href="<?= get_post_type_archive_link('event') ?>">Liste des conférences</a>
     <div class="bg-success p-2 m-2 row">
         <h3 class="col-md-8">Conférence</h3>
         <p class="col-md-3 bg-danger text-white">Le : <?php the_field('conference_date') ?></p>

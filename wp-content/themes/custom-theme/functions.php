@@ -770,7 +770,11 @@ function setCustomPostTypes(){
 			'singular_name' => 'Conférence'
 		],
 		'menu_icon' => 'dashicons-calendar-alt',
-		'show_in_rest' => true
+		'show_in_rest' => true,
+		'has_archive' => true,
+		'rewrite' => [
+			'slug' => 'conferences'
+		]
 	]);
 
 	register_post_type('program', [
