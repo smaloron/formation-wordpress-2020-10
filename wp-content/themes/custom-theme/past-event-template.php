@@ -2,6 +2,11 @@
 get_header();
 ?>
 
+<?php
+/*
+Template Name: anciennes conférences
+*/
+?>
 <main id="site-content" role="main" class="container">
 
     <div class="row justify-content-center">
@@ -18,7 +23,7 @@ get_header();
             'meta_query' => [
                 [
                     'key' => 'conference_date',
-                    'compare' => '>=',
+                    'compare' => '<',
                     'value' => $today,
                 ]
             ]
