@@ -772,6 +772,19 @@ function setCustomPostTypes(){
 		'menu_icon' => 'dashicons-calendar-alt',
 		'show_in_rest' => true
 	]);
+
+	register_post_type('program', [
+		'public' => true,
+		'labels' => [
+			'name' => 'Programmes de formation',
+			'all_items' => 'Toutes les formations',
+			'add_new_item' => 'Nouvelle formation',
+			'edit_item' => 'Modifier la formation',
+			'singular_name' => 'Programme de formation'
+		],
+		'menu_icon' => 'dashicons-welcome-learn-more',
+		'show_in_rest' => true
+	]);
 }
 
 add_action('init', 'setCustomPostTypes');
