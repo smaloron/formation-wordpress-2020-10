@@ -1,0 +1,68 @@
+# Translation of Themes - New Blog Jr in French (France)
+# This file is distributed under the same license as the Themes - New Blog Jr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-13 21:07:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - New Blog Jr\n"
+
+#: functions.php:52
+msgid "3 columns "
+msgstr "3 colonnes"
+
+#: functions.php:77
+msgid "Select the 1st category among"
+msgstr "Sélectionnez la 1ère catégorie parmi"
+
+#: functions.php:105
+msgid "Select the 3rd category among"
+msgstr "Sélectionnez la 3e catégorie parmi"
+
+#: functions.php:91
+msgid "Select the 2nd category among"
+msgstr "Sélectionnez la 2e catégorie parmi"
+
+#: template-parts/content-banner.php:37
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: functions.php:134
+msgid "Default image "
+msgstr "Image par défaut"
+
+#: index.php:147 index.php:184
+msgid "Next"
+msgstr "Prochain"
+
+#: index.php:146 index.php:183
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/related-posts-front.php:19
+msgid "Related posts"
+msgstr "Articles similaires"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: functions.php:62
+msgid "Enable related posts by category"
+msgstr "Activer les publications relatives par catégorie"
+
+#: functions.php:51
+msgid "1 column with related posts"
+msgstr "1 colonne avec des publications relatives"
+
+#: functions.php:46
+msgid "Display layout type"
+msgstr "Afficher les types de mise en page"
+
+#: header.php:181
+msgid "Toggle navigation"
+msgstr "Permuter la navigation"
