@@ -36,6 +36,19 @@ function setCustomPostTypes()
         'menu_icon' => 'dashicons-welcome-learn-more',
         'show_in_rest' => true
     ]);
+
+    register_post_type('trainer', [
+        'public' => true,
+        'labels' => [
+            'name' => 'Formateurs',
+            'all_items' => 'Tous les formateurs',
+            'add_new_item' => 'Nouveau formateur',
+            'edit_item' => 'Modifier le formateur',
+            'singular_name' => 'Formateur'
+        ],
+        'menu_icon' => 'dashicons-smiley',
+        'show_in_rest' => true
+    ]);
 }
 
 add_action('init', 'setCustomPostTypes');
