@@ -1,0 +1,54 @@
+.sirsc_imgseo-menu-buttons {display: block; position: relative; z-index: 0;}
+.sirsc_imgseo-action-wrap {border: 1px solid #FFF; background: #FFF; position: relative; z-index: 2; padding: 20px; margin-top:0; margin-bottom: 10px;}
+.sirsc-tabbed-menu-content .sirsc_imgseo-action-wrap {padding: 0; border: 1px solid #45AFD1;}
+.sirsc_imgseo-menu-buttons .button {border:0; text-transform: uppercase; background-color: #DDD; height:32px; line-height: 32px; border-radius:0; border:0; margin-right: 5px;}
+.sirsc_imgseo-menu-buttons .button.button-primary {background-color: #45AFD1; color: #FFF; text-shadow: none; }
+
+#sirsc_imgseo-images-process-wrap { display: block; position: relative;}
+#sirsc_imgseo-images-process-wrap .progress {
+	display: block; position: relative; width: 100%; height: 28px; line-height: 28px;
+	background: #FFF; border-radius: 3px; overflow: hidden; border: 1px solid #45AFD1; margin: 10px 0;
+}
+
+.js-sirsc_imgseo {display: block; position: relative;}
+.js-sirsc_imgseo.processing:before { display:block; z-index:20; position:absolute; left:0; top:0; width:100%; height:100%; background: url('../../../../../../wp-admin/images/spinner-2x.gif') no-repeat 50% 50% rgba(255,255,255,0.5); background-size:32px 32px; content:' ';}
+
+#sirsc_imgseo-images-process-wrap .progress .processed {
+	display: block; width: 0%; line-height: 28px; text-align: center; background: #45AFD1; font-size: 12px;
+	position: absolute; left:0; top: 0; height: 100%; color: #FFF;
+}
+
+#sirsc_imgseo-images-process-wrap .sirsc_imgseo-item-processed {display:block; margin:10px 0 0 0; padding:10px; border:1px solid #EEE; background:#FFF;}
+#sirsc_imgseo-images-process-wrap .sirsc_imgseo-item-processed .dashicons.success {color: #45AFD1;}
+#sirsc_imgseo-images-process-wrap .sirsc_imgseo-item-processed ul {list-style-type: disc; padding-left: 2em; font-size: 11px; line-height:10px}
+#sirsc_imgseo-images-process-wrap .sirsc_imgseo-item-processed ul li b{color: #45AFD1;}
+#sirsc_imgseo-images-process-wrap .sirsc_imgseo-item-processed ul li.maybe-hidden {display: none}
+#sirsc_imgseo-images-process-wrap.full .sirsc_imgseo-item-processed ul li.maybe-hidden{display: block;}
+
+.sirsc_imgseo-action-wrap h3, .wrap .sirsc_imgseo-as-h3 {text-transform: uppercase; line-height: 24px; margin:0; color:#45AFD1}
+.sirsc_imgseo-action-wrap input[type="text"] {width: 100%; line-height: 21px;}
+
+
+.sirsc_imgseo-action-wrap label.sirsc_imgseo-label {display: inline-block; min-height: 28px; line-height: 28px; min-width: 120px; background: #EEE; border-left: 28px solid #b4b9be; padding: 0px 5px; border-radius: 3px; position: relative; margin:0 10px 10px 0;}
+.sirsc_imgseo-action-wrap label.sirsc_imgseo-label input {position: absolute; /*background: transparent; border: 0px !important;*/ box-shadow: none; outline:none; width:24px !important; line-height:24px !important; font-size:24px !important; height:24px !important; margin:0 !important; left: -26px; top:2px;}
+.sirsc_imgseo-action-wrap .button {min-width: 158px}
+
+.sirsc_imgseo-action-wrap label.sirsc_imgseo-label.as-bullet {border-left:5px solid #b4b9be;}
+.sirsc_imgseo-action-wrap .sirsc_imgseo-box {margin-top:0;}
+
+.sirsc_imgseo-action-wrap .fixed td {vertical-align: top; padding: 10px}
+@media all and (max-width: 782px) {
+	.sirsc_imgseo-action-wrap .fixed tbody, .sirsc_imgseo-action-wrap .fixed tr, .sirsc_imgseo-action-wrap .fixed td { display:block; clear:both; width: 100% }
+	.sirsc_imgseo-action-wrap {margin-top: -4px;}
+	.sirsc_imgseo-menu-buttons .button {line-height: 24px;}
+}
+
+.sirsc_imgseo_meta .button{ width: 48% }
+.sirsc_imgseo_meta .button .dashicons {line-height: 24px;}
+
+.sirsc_imgseo-action-wrap input[type="checkbox"]:checked:before { font: normal 30px/1 dashicons !important; margin: -3px -5px; height: 28px !important; width: 28px !important; }
+.sirsc_imgseo-action-wrap input[type="checkbox"]:checked + label.sirsc_imgseo-label {border-left: 32px solid blue;}
+
+#sirsc_imgseo-images-process-wrap label.sirsc_imgseo-label-info {text-transform: uppercase; display: inline-block; background: #CCC; color: #000; padding:1px 5px; float:right; }
+.sirsc_imgseo-action-wrap .wrap-disabled {opacity: 0.3; display: block; position: relative;}
+.sirsc_imgseo-action-wrap .wrap-disabled:before {display: block; position: absolute; top:0; left:0; width:100%; height: 100%; background: rgba(255,255,255,0.5); content:' '; z-index: 10}

@@ -1,0 +1,1363 @@
+# Copyright (C) 2019 Image Regenerate & Select Crop
+# This file is distributed under the same license as the Image Regenerate & Select Crop package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Regenerate & Select Crop 5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/image-regenerate-select-crop\n"
+"POT-Creation-Date: 2019-08-08 18:14:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-06-29 09:53+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n%100<=19) ? 1 : 2);\n"
+"Language: ro\n"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:110 adons/uploads-inspector/class-sirsc-uploads-inspector.php:111 adons/uploads-inspector/class-sirsc-uploads-inspector.php:154 sirsc-adons.php:149
+msgid "Uploads Inspector"
+msgstr "Inspector uploads"
+
+#. Plugin Name of the plugin/theme
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:147 adons/images-seo/class-sirsc-images-seo.php:429 adons/import-export/class-sirsc-import-export.php:180 adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:460 image-regenerate-select-crop.php:444 image-regenerate-select-crop.php:445 image-regenerate-select-crop.php:1276
+#: image-regenerate-select-crop.php:3598 sirsc-adons.php:335
+msgid "Image Regenerate & Select Crop"
+msgstr "Regenerare & tăiere selectivă imagine"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:164 adons/uploads-inspector/class-sirsc-uploads-inspector.php:340 adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:475
+msgid "Click to"
+msgstr "Apăsați pentru"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:164
+msgid "refresh summary"
+msgstr "actualizare sumar"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:164 adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:475
+msgid "this will refresh the totals and counts if something was updated in the meanwhile"
+msgstr "aceasta va actualiza totalurile și numerele dacă ceva a fost modificat între timp"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:236 adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:403
+msgid "Folder Summary"
+msgstr "Sumar director"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:340
+msgid "assess files from uploads folder & refresh the info"
+msgstr "evaluare fișiere din directorul uploads & actualizarea informațiilor"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "Files Info"
+msgstr "Info fișiere"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "unknown"
+msgstr "necunoscut"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "files"
+msgstr "fișiere"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "MIME Type"
+msgstr "Tip MIME"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "Images Sizes"
+msgstr "Mărimi imagini"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "Valid Images"
+msgstr "Imagini valide"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "List"
+msgstr "Listă"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "Attachment"
+msgstr "Atașament"
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:359
+msgid "Page %1$s of %2$s"
+msgstr "Pagina %1$s din %2$s"
+
+msgid "The most recent files assessment was executed on %1$s."
+msgstr "Cea mai recentă evaluare a fișierelor s-a efectuat în %1$s."
+
+#. Translators: %1$d - count products, %2$d - total.
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:574
+msgid "There are %1$d items assessed out of %2$d."
+msgstr "Au fost evaluate %1$d elemente din %2$d."
+
+#: adons/uploads-inspector/class-sirsc-uploads-inspector.php:622
+msgid "Processing the request for"
+msgstr "Se procesează cererea pentru"
+
+#: adons/images-seo/class-sirsc-images-seo.php:181
+msgid "All identified images were processed."
+msgstr "Toate imaginile identificate au fost procesate."
+
+#: adons/images-seo/class-sirsc-images-seo.php:182
+msgid "The bulk request is processing"
+msgstr "Se procesează cererea în masă"
+
+#: adons/images-seo/class-sirsc-images-seo.php:183
+msgid "The bulk request finished"
+msgstr "Cererea în masă s-a finalizat"
+
+#: adons/images-seo/class-sirsc-images-seo.php:243
+msgid "The initial filename was recorded."
+msgstr "Numele fișierului inițial a fost înregistrat."
+
+#: adons/images-seo/class-sirsc-images-seo.php:248
+msgid "The attachment alternative text was updated."
+msgstr "Textul alternativ al atașamentului a fost modificat."
+
+#: adons/images-seo/class-sirsc-images-seo.php:255
+msgid "The attachment title was updated."
+msgstr "Titlul atașamentului a fost modificat."
+
+#: adons/images-seo/class-sirsc-images-seo.php:262
+msgid "The attachment permalink was updated."
+msgstr "Legătura permanentă a atașamentului a fost modificată."
+
+#. Translators: %1$d - image sized replaced.
+#: adons/images-seo/class-sirsc-images-seo.php:314
+msgid " + %1$d more image sizes that were found for this"
+msgstr " + încă %1$d mărimi de imagine ce au fost găsite pentru aceasta"
+
+#: adons/images-seo/class-sirsc-images-seo.php:342
+msgid "Attachment ID"
+msgstr "ID atașament"
+
+#: adons/images-seo/class-sirsc-images-seo.php:342
+msgid "New Title"
+msgstr "Titlu nou"
+
+#: adons/images-seo/class-sirsc-images-seo.php:362 adons/images-seo/class-sirsc-images-seo.php:391 adons/images-seo/class-sirsc-images-seo.php:405 adons/images-seo/class-sirsc-images-seo.php:406 adons/images-seo/class-sirsc-images-seo.php:434 sirsc-adons.php:131
+msgid "Images SEO"
+msgstr "Imagini SEO"
+
+#: adons/images-seo/class-sirsc-images-seo.php:384
+msgid "You can rename this attachment files (including the files generated as image sizes) and other attributes."
+msgstr "Puteți redenumi fișierele acestui atașament (inclusiv fișierele generate ca mărimi de imagine) și alte atribute."
+
+#: adons/images-seo/class-sirsc-images-seo.php:386
+msgid "You can rename and update attributes of some of the files already uploaded or attached to this post."
+msgstr "Puteți redenumi și modifica atribute ale unora dintre fișierele deja încărcate sau atașate la acest articol."
+
+#: adons/images-seo/class-sirsc-images-seo.php:390 adons/images-seo/class-sirsc-images-seo.php:448 image-regenerate-select-crop.php:3889
+msgid "Settings"
+msgstr "Setări"
+
+#: adons/images-seo/class-sirsc-images-seo.php:454
+msgid "Rename Images"
+msgstr "Redenumire imagini"
+
+#: adons/images-seo/class-sirsc-images-seo.php:461 adons/images-seo/class-sirsc-images-seo.php:772
+msgid "Bulk Rename Images"
+msgstr "Redenumire în masă imagini"
+
+#: adons/images-seo/class-sirsc-images-seo.php:504
+msgid "What Does Images SEO Do?"
+msgstr "Ce face Imagini SEO?"
+
+#: adons/images-seo/class-sirsc-images-seo.php:505
+msgid "You can enable/disable any of the actions that the SEO rename extension is providing. The ones enabled will be used for processing images on upload, on bulk rename, and on manual rename too."
+msgstr "Puteți activa/dezactiva oricare dintre acțiunile pe care extensia de redenumire SEO le furnizează. Cele pe care le activați vor fi folosite la procesarea imaginilor la încărcare, la redenumirea în masă și de asemenea la redenumirea manuală."
+
+#: adons/images-seo/class-sirsc-images-seo.php:516
+msgid "Rename Files"
+msgstr "Redenumire fișiere"
+
+#: adons/images-seo/class-sirsc-images-seo.php:518
+msgid "Enable this to rename the attachment files (also the image sizes generated)."
+msgstr "Activați pentru a redenumi fișierele atașamentului (inclusiv mărimile de imaginie generate)."
+
+#: adons/images-seo/class-sirsc-images-seo.php:528
+msgid "Track Initial File"
+msgstr "Memorare fișier inițial"
+
+#: adons/images-seo/class-sirsc-images-seo.php:530
+msgid "Enable this to keep a record of the initial filename if the file is renamed."
+msgstr "Activați pentru a păstra o înregistrare a numelui fișierului inițial dacă fișierul se redenumește."
+
+#: adons/images-seo/class-sirsc-images-seo.php:539
+msgid "Override Title"
+msgstr "Supascriere titlu"
+
+#: adons/images-seo/class-sirsc-images-seo.php:541
+msgid "Enable this to override the attachment title with the inherited title."
+msgstr "Activați pentru a suprascrie titlul atașamentului cu titlul moștenit."
+
+#: adons/images-seo/class-sirsc-images-seo.php:550
+msgid "Override Alternative"
+msgstr "Suprascriere alternativ"
+
+#: adons/images-seo/class-sirsc-images-seo.php:552
+msgid "Enable this to override the attachment alternative text with the inherited title."
+msgstr "Activați pentru a suprascrie textul alternativ al atașamentului cu titlul moștenit."
+
+#: adons/images-seo/class-sirsc-images-seo.php:561
+msgid "Override Permalink"
+msgstr "Suprascriere legătură permanentă"
+
+#: adons/images-seo/class-sirsc-images-seo.php:563
+msgid "Enable this to override the attachment permalink with the inherited title."
+msgstr "Activați pentru a suprascrie legătură permanentă a atașamentului cu titlul moștenit."
+
+#: adons/images-seo/class-sirsc-images-seo.php:573
+msgid "Show rename button"
+msgstr "Afișare buton redenumire"
+
+#: adons/images-seo/class-sirsc-images-seo.php:574
+msgid "For the selected post types there will be shown a meta box with the button to rename the associated files."
+msgstr "Pentru tipurile de articole selectate se va afișa o căsuță meta cu un buton de redenumire a fișierelor asociate."
+
+#: adons/images-seo/class-sirsc-images-seo.php:594
+msgid "Rename images on upload"
+msgstr "Redenumire imagini la încărcare"
+
+#: adons/images-seo/class-sirsc-images-seo.php:595
+msgid "Attempt to automatically rename the files on upload to these post types (these post parent types)."
+msgstr "Se încearcă redenumirea automată a fișierelor când se încarcă la aceste tipuri de articole (părinți de aceste tipuri)."
+
+#: adons/images-seo/class-sirsc-images-seo.php:616
+msgid "Bulk rename images for types"
+msgstr "Redenumire în masă a imaginilor pentru tipuri"
+
+#: adons/images-seo/class-sirsc-images-seo.php:617
+msgid "These will be the post types that will be available to select in the bulk rename process."
+msgstr "Acestea for fi tipurile de articole ce vor fi disponibile pentru selecție în procesul de redenumire în masă."
+
+#: adons/images-seo/class-sirsc-images-seo.php:638 image-regenerate-select-crop.php:1331 image-regenerate-select-crop.php:1366 image-regenerate-select-crop.php:1552 image-regenerate-select-crop.php:3780
+msgid "Save Settings"
+msgstr "Salvare setări"
+
+#: adons/images-seo/class-sirsc-images-seo.php:644
+msgid "Please note that any of the rename process options (on upload, manual rename, bulk rename) will take into account the currently enabled settings, this will not apply retroactively."
+msgstr "Vă rugăm să notați că oricare dintre opțiunile procesului de redenumire (la încărcare, redenumire manuală, redenumire în masă) vor lua în calcul setările activate momentan, acestea nu se aplică retroactiv."
+
+#: adons/images-seo/class-sirsc-images-seo.php:672
+msgid "Rename Attachment File"
+msgstr "Redenumire fișier atașament"
+
+#: adons/images-seo/class-sirsc-images-seo.php:673
+msgid "You can change the title below, then click the button to rename the attachment file, and the generated image sizes."
+msgstr "Puteți schimba mai jos titlul, apoi apăsați pe buton ca să redenumiți fișierul atașamentului și mărimile de imagine generate."
+
+#: adons/images-seo/class-sirsc-images-seo.php:681 adons/images-seo/class-sirsc-images-seo.php:717
+msgid "Rename"
+msgstr "Redenumire"
+
+#: adons/images-seo/class-sirsc-images-seo.php:692
+msgid "Attachment Image"
+msgstr "Imagine atașament"
+
+#: adons/images-seo/class-sirsc-images-seo.php:696 adons/images-seo/class-sirsc-images-seo.php:704 adons/images-seo/class-sirsc-images-seo.php:732 adons/images-seo/class-sirsc-images-seo.php:740
+msgid "Go to"
+msgstr "Mergeți la"
+
+#: adons/images-seo/class-sirsc-images-seo.php:708
+msgid "Rename images attached to the post"
+msgstr "Redenumire imagini atașate la articol"
+
+#: adons/images-seo/class-sirsc-images-seo.php:709
+msgid "You can change the title below, then click the button to rename the identifies images associated with this post, and their generated image sizes."
+msgstr "Puteți schimba mai jos titlul, apoi apăsați pe buton ca să redenumiți imaginile identificate ca asociate cu acest articol și mărimile de imagine generate pentru ele."
+
+#: adons/images-seo/class-sirsc-images-seo.php:728
+msgid "Images Attached to the post"
+msgstr "Imagini atașate la articol"
+
+#: adons/images-seo/class-sirsc-images-seo.php:774
+msgid "The bulk rename process is targeting images set as <b>featured image</b> (for all post types selected that support the featured image feature) or attached as <b>media</b> (uploaded to that posts as children)."
+msgstr "Procesul de redenumire în masă targetează imaginile setate ca <b>imagine reprezentativă</b> (pentru toate tipurile de articole care suportă imagine reprezentativă) sau atașate ca <b>media</b> (încărcate la acel articol ca și copii)."
+
+#: adons/images-seo/class-sirsc-images-seo.php:776
+msgid "For products, the rename will include also the <b>gallery images</b>."
+msgstr "Pentru produse, redenumirea va include de asemenea <b>galeriea de imagini</b>."
+
+#: adons/images-seo/class-sirsc-images-seo.php:778
+msgid "Please note that any of the rename process options (on upload, manual rename, bulk rename) will override the attachment attributes based on the images SEO settings you made."
+msgstr "Vă rugăm să notați că oricare dintre opțiunile procesului de redenumire (la încărcare, redenumire manuală, redenumire în masă) vor suprascrie atibutele atașamentului în funcție de setările SEO de imagini pe care le-ați făcut."
+
+#: adons/images-seo/class-sirsc-images-seo.php:793
+msgid "Start Bulk Rename"
+msgstr "Inițiere redenumire în masă"
+
+#: adons/images-seo/class-sirsc-images-seo.php:838
+msgid "Attachment Rename Result"
+msgstr "Rezultat redenumire atașament"
+
+#: adons/images-seo/class-sirsc-images-seo.php:846
+msgid "Images Attached to the Post Rename Result"
+msgstr "Rezultat redenumire imagini atașate la articol"
+
+#: adons/images-seo/class-sirsc-images-seo.php:882 image-regenerate-select-crop.php:1105 image-regenerate-select-crop.php:1238 image-regenerate-select-crop.php:3579 sirsc-adons.php:329
+msgid "Action not allowed."
+msgstr "Acțiune nepermisă."
+
+#: adons/images-seo/class-sirsc-images-seo.php:897
+msgid "The rename request is processing"
+msgstr "Se procesează cererea de redenumire"
+
+#: adons/images-seo/class-sirsc-images-seo.php:898
+msgid "Stop Processing"
+msgstr "Oprire procesare"
+
+#. Translators: %1$d - count products, %2$d - total.
+#: adons/images-seo/class-sirsc-images-seo.php:1048
+msgid "Processed the filename replacement for %1$d items of %2$d."
+msgstr "S-a procesat înlocuirea numelor de fișiere pentru %1$d element din %2$d."
+
+#: adons/images-seo/class-sirsc-images-seo.php:1142
+msgid "The image inherited the title from the post that is using this as featured image."
+msgstr "Imaginea a moștenit titlul de la articolul care o folosește ca imagine reprezentativă."
+
+#: adons/images-seo/class-sirsc-images-seo.php:1166
+msgid "The image inherited the title from the product that is using this as gallery image."
+msgstr "Imaginea a moștenit titlul de la produsul care o folosește ca imagine de galerie."
+
+#: adons/images-seo/class-sirsc-images-seo.php:1185
+msgid "The image inherited the title from the post parent of the image."
+msgstr "Imaginea a moștenit titlul de la articolul care este părintele imaginii."
+
+#: adons/images-seo/class-sirsc-images-seo.php:1195
+msgid "The image inherited the title from the attachment title."
+msgstr "Imaginea a moștenit titlul de la titlul atașamentului."
+
+#: adons/import-export/class-sirsc-import-export.php:126
+msgid "The plugin settings have been imported successfully."
+msgstr "Setările modulului au fost importate cu succes."
+
+#: adons/import-export/class-sirsc-import-export.php:144
+msgid "The plugin settings were not imported, something went wrong."
+msgstr "Setările modulului nu au fost importate, ceva nu a funcționat."
+
+#: adons/import-export/class-sirsc-import-export.php:159 adons/import-export/class-sirsc-import-export.php:160 sirsc-adons.php:122
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: adons/import-export/class-sirsc-import-export.php:187
+msgid "Import/Export Settings"
+msgstr "Import/export setări"
+
+#: adons/import-export/class-sirsc-import-export.php:197
+msgid "Please note that the import/export of the settings is in relation with the image sizes that are found on the instance, through the plugins that are activated and also the theme settings. You might need to partially adjust these manually after an import."
+msgstr "Vă rugăm să notați că importul/exportul setărilor este în relație cu mărimile de imagine care sunt găsite în această instanță, prin intermediul modulelor care sunt activate și de asemenea prin setările temei. Este posibil să fie necesar să le ajustați manual după un import."
+
+#: adons/import-export/class-sirsc-import-export.php:205
+msgid "Export Settings"
+msgstr "Export setări"
+
+#: adons/import-export/class-sirsc-import-export.php:206
+msgid "Copy the settings and import these into another instance."
+msgstr "Copiați setările și importați-le în altă instantă."
+
+#: adons/import-export/class-sirsc-import-export.php:212 adons/import-export/class-sirsc-import-export.php:218
+msgid "Import Settings"
+msgstr "Import setări"
+
+#: adons/import-export/class-sirsc-import-export.php:213
+msgid "Paste here the settings and import these into the current instance."
+msgstr "Lipiți aici setările și importați-le în instanța curentă."
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:68 adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:69 adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:467 sirsc-adons.php:140
+msgid "Uploads Folder Info"
+msgstr "Info director uploads"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:187 image-regenerate-select-crop.php:2103 image-regenerate-select-crop.php:3688
+msgid "N/A"
+msgstr "N/A"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:297
+msgid "Upload folder"
+msgstr "Director upload"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:301
+msgid "Size"
+msgstr "Mărime"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:306
+msgid "Total folders"
+msgstr "Total directoare"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:310
+msgid "Total files"
+msgstr "Total fișiere"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:333
+msgid "Folder"
+msgstr "Director"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:334
+msgid "Total Folders"
+msgstr "Total directoare"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:335
+msgid "Total Files"
+msgstr "Total fișiere"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:336
+msgid "Total Size"
+msgstr "Mărime totală"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:337
+msgid "Total Bytes"
+msgstr "Total bytes"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:411
+msgid "Folder Details"
+msgstr "Detalii director"
+
+#: adons/uploads-folder-info/class-sirsc-uploads-folder-info.php:475
+msgid "refresh summary & folder details"
+msgstr "actualizare sumar & detalii director"
+
+#: image-regenerate-select-crop.php:181
+msgid "Left/Top"
+msgstr "Stânga/Sus"
+
+#: image-regenerate-select-crop.php:182
+msgid "Center/Top"
+msgstr "Centru/Sus"
+
+#: image-regenerate-select-crop.php:183
+msgid "Right/Top"
+msgstr "Dreapta/Sus"
+
+#: image-regenerate-select-crop.php:184
+msgid "Left/Center"
+msgstr "Stânga/Centru"
+
+#: image-regenerate-select-crop.php:185
+msgid "Center/Center"
+msgstr "Centru/Centru"
+
+#: image-regenerate-select-crop.php:186
+msgid "Right/Center"
+msgstr "Dreapta/Centru"
+
+#: image-regenerate-select-crop.php:187
+msgid "Left/Bottom"
+msgstr "Stânga/Jos"
+
+#: image-regenerate-select-crop.php:188
+msgid "Center/Bottom"
+msgstr "Centru/Jos"
+
+#: image-regenerate-select-crop.php:189
+msgid "Right/Bottom"
+msgstr "Dreapta/Jos"
+
+#. Translators: %1$s - image URL, %2$s - icon URL, %3$s - donate URL, %4$s -
+#. link style, %5$s - icon style, %6$s - rating.
+#: image-regenerate-select-crop.php:321
+msgid "<a href=\"%3$s\" target=\"_blank\"%4$s><img src=\"%1$s\"></a><img src=\"%2$s\"%5$s> <h3>Thank you for activating the plugin Image Regenerate & Select Crop!</h3>If you find the plugin useful and would like to support my work, please consider making a <a href=\"%3$s\" target=\"_blank\">donation</a>. It would make me very happy if you would leave a %6$s rating."
+msgstr "<a href=“%3$s” target=”_blank”%4$s><img src=”%1$s”></a><img src=”%2$s”%5$s> <h3>Îți mulțumesc că ai activat modulul Regenerare & tăiere selectivă imagine!</h3>Dacă acest modul îți este folositor și ai dori să îmi sprijini munca, m-aș bucura dacă ai face o <a href=”%3$s” target=”_blank”>donație</a>. M-ar bucura mult dacă ai lăsa o recenzie de %6$s."
+
+#. Translators: %1$s - image URL, %2$s - icon URL, %3$s - donate URL, %4$s -
+#. link style, %5$s - icon style, %6$s - rating.
+#: image-regenerate-select-crop.php:321
+msgid "<a href=\"%3$s\" target=\"_blank\"%4$s><img src=\"%1$s\"></a><a href=\"%9$s\"><img src=\"%2$s\"%5$s></a> <h3>%8$s plugin was activated!</h3> This plugin is free to use, but not to operate. Please consider supporting my services by making a <a href=\"%3$s\" target=\"_blank\">donation</a>. It would make me very happy if you would leave a %6$s rating. %7$s"
+msgstr "<a href=\"%3$s\" target=\"_blank\"%4$s><img src=\"%1$s\"></a><a href=\"%9$s\"><img src=\"%2$s\"%5$s></a> <h3>Modulul %8$s a fost activat!</h3> Acest modul este gratuit, dar nu și întreținerea lui. Te rog să iei în considerare sprijinul serviciilor mele făcând o <a href=\"%3$s\" target=\"_blank\">donație</a>. M-ar bucura mult dacă ai lăsa o notă de %6$s. %7$s"
+
+#: image-regenerate-select-crop.php:322
+msgid "<a class=\"button button-primary\" href=\"%1$s\">%2$s Premium extensions</a> are available for this plugin. "
+msgstr "Pentru acest modul sunt disponibile <a class=\"button button-primary\" href=\"%1$s\">%2$s extensii premium</a>. "
+
+#: image-regenerate-select-crop.php:322
+msgid "%5$sCheck out my other <a class=\"button button-primary\" href=\"%1$s\" target=\"_blank\">%2$s free plugins</a> on WordPress.org and the <a class=\"button button-primary\" href=\"%3$s\" target=\"_blank\">%4$s other extensions</a> available!"
+msgstr "%5$sVezi și celelalte <a class=\"button button-primary\" href=\"%1$s\" target=\"_blank\">%2$s module gratuite</a> ale mele pe WordPress.org și <a class=\"button button-primary\" href=\"%3$s\" target=\"_blank\">%4$s alte extensii</a> disponibile!"
+
+#: image-regenerate-select-crop.php:321 image-regenerate-select-crop.php:357
+msgid "A huge thanks in advance!"
+msgstr "Multe mulțumiri în avans!"
+
+#. Translators: %1$s - donate URL, %2$s - rating.
+#: image-regenerate-select-crop.php:357
+msgid "If you find the plugin useful and would like to support my work, please consider making a <a href=\"%1$s\" target=\"_blank\">donation</a>.<br>It would make me very happy if you would leave a %2$s rating."
+msgstr "Dacă acest modul îți este folositor și ai dori să îmi sprijini munca, m-aș bucura dacă ai face o <a href=”%1$s” target=”_blank”>donație</a>.<br>M-ar bucura mult dacă ai lăsa o recenzie de %2$s."
+
+#: image-regenerate-select-crop.php:413
+msgid "Cleanup all?"
+msgstr "Curăță tot?"
+
+#: image-regenerate-select-crop.php:414
+msgid "Regenerate all?"
+msgstr "Regenerează tot?"
+
+#: image-regenerate-select-crop.php:415
+msgid "This operation might take a while, depending on how many images you have."
+msgstr "Această operațiune poate să dureze, în funcție de câte imagini aveți."
+
+#: image-regenerate-select-crop.php:416
+msgid "The operation is irreversible!"
+msgstr "Această operațiune este ireversibilă!"
+
+#: image-regenerate-select-crop.php:417 image-regenerate-select-crop.php:1994
+msgid "Resolution"
+msgstr "Rezoluție"
+
+#: image-regenerate-select-crop.php:418 image-regenerate-select-crop.php:1716 image-regenerate-select-crop.php:3830
+msgid "Details/Options"
+msgstr "Detalii/Opțiuni"
+
+#: image-regenerate-select-crop.php:419 image-regenerate-select-crop.php:1716
+msgid "Image Details"
+msgstr "Detalii imagine"
+
+#: image-regenerate-select-crop.php:420 image-regenerate-select-crop.php:1423 image-regenerate-select-crop.php:1504 image-regenerate-select-crop.php:1717 image-regenerate-select-crop.php:2016 image-regenerate-select-crop.php:2032 image-regenerate-select-crop.php:2179
+msgid "Regenerate"
+msgstr "Regenerare"
+
+#: image-regenerate-select-crop.php:421
+msgid "Regenerate Log"
+msgstr "Jurnal Regenerare"
+
+#: image-regenerate-select-crop.php:422
+msgid "Cleanup Log"
+msgstr "Jurnal Curățare"
+
+#: image-regenerate-select-crop.php:455 image-regenerate-select-crop.php:456 image-regenerate-select-crop.php:3603 sirsc-adons.php:66
+msgid "Advanced Rules"
+msgstr "Reguli avansate"
+
+#: image-regenerate-select-crop.php:463 image-regenerate-select-crop.php:464
+msgid "Media Settings"
+msgstr "Setări media"
+
+#: image-regenerate-select-crop.php:470 image-regenerate-select-crop.php:471
+msgid "Additional Sizes"
+msgstr "Mărimi adiționale"
+
+#: image-regenerate-select-crop.php:1105
+msgid "Security Breach"
+msgstr "Breșă de securitate"
+
+#: image-regenerate-select-crop.php:1125
+msgid "The plugin settings have been updated successfully."
+msgstr "Setările modulului au fost salvate cu succes."
+
+#: image-regenerate-select-crop.php:1281 sirsc-adons.php:60 sirsc-adons.php:197
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: image-regenerate-select-crop.php:1288
+msgid "Please make sure you visit and update your settings here whenever you activate a new theme or plugins, so that the new image size registered, adjusted or removed to be reflected also here, and in this way to assure the optimal behavior for the features of this plugin."
+msgstr "Vă rugăm să vă asigurați că revizitați și actualizați setările de aici ori de câte ori activați o nouă temă sau noi module, astfel încât noile mărimi de imagini înregistrate, modificate sau eliminate să fie reflectate și aici, și în acest fel să asigurați comportamentul optim al funcționalităților acestui modul."
+
+#: image-regenerate-select-crop.php:1289 image-regenerate-select-crop.php:3283
+msgid "Images Custom Settings"
+msgstr "Setări personalizate pentru imagini"
+
+#: image-regenerate-select-crop.php:1290 image-regenerate-select-crop.php:3313
+msgid "Define Custom Image Sizes"
+msgstr "Definire dimensiuni personalizate de imagini"
+
+#: image-regenerate-select-crop.php:1297 image-regenerate-select-crop.php:3583
+msgid "Image Regenerate & Select Crop Settings are not configured yet."
+msgstr "Setările pentru regenerare & tăiere selectivă imagine nu sunt configurate încă."
+
+#: image-regenerate-select-crop.php:1303
+msgid "Option to Enable Placeholders"
+msgstr "Opțiune de activare substituenți"
+
+#: image-regenerate-select-crop.php:1304
+msgid ""
+"This option allows you to display placeholders for the front-side images called programmatically (the images that are not embedded in the content with their src, but exposed using WordPress native functions). If there is no placeholder set, then the WordPress default behavior would be to display the full-size image instead of a missing image size, hence your pages might "
+"load slower, and when using grids, the items would not look even."
+msgstr ""
+"Această opțiune vă permite să afișați substituenți ale imaginilor din partea frontală care sunt apelate programatic (imagini care nu sunt încorporate în conținut cu adresa lor, ci cele expuse folosind funcții native WordPress). Dacă nu a fost setat nici un substituent, atunci comportamentul implicit WordPress este acela de a afișa imaginea la mărime completă în loc de o "
+"dimensiune de imagine lipsă, prin urmare, paginile s-ar putea încărca mai lent, și atunci când se utilizează grile, elementele nu ar arăta egale."
+
+#: image-regenerate-select-crop.php:1307
+msgid "This feature might not work properly, your placeholders folder is not writtable."
+msgstr "Se poate ca această acțiune să nu funcționeze corect, în directorul pentru substituenți nu se poate scrie."
+
+#: image-regenerate-select-crop.php:1315
+msgid "Images Placeholders Developer Mode"
+msgstr "Mod dezvoltator substituenți imagini"
+
+#: image-regenerate-select-crop.php:1318
+msgid "If you activate the \"force global\" option, all the images on the front-side that are related to posts will be replaced with the placeholders that mention the image size required. This is useful for debugging, to quickly identify the image sizes used for each layout and perhaps to help you regenerate the mission ones or decide what to keep or what to remove."
+msgstr ""
+"Dacă activați opțiunea ”forțează global”, toate imaginile de pe partea frontală care sunt legate de posturi vor fi înlocuite cu substituenți care menționează dimensiunea imaginii necesare. Acest lucru este util pentru depanare, pentru a identifica rapid dimensiunile imaginii utilizate pentru fiecare aspect și, probabil, pentru a vă ajuta să le regenerați pe cele lipsă sau "
+"pentru a decide ce să păstrați sau ce să eliminați."
+
+#: image-regenerate-select-crop.php:1318
+msgid ""
+"If you activate the \"only missing images\" option, all the programmatically called images on the front-side that are related to posts and do not have the requested image size generated will be replaced with the placeholders that mention the image size required. This is useful for showing smaller images instead of the full-size images (as WordPress does by default), hence "
+"for speeding up the pages loading."
+msgstr ""
+"Dacă activați opțiunea ”numai imagini lipsă”, toate imaginile apelate programatic pe partea frontală, care sunt legate de articole și care nu au imagine generată la dimensiunea dorită vor fi înlocuite cu substituenți care menționează dimensiunea imaginii necesare. Acest lucru este util pentru afișarea imaginilor mai mici în loc de imagini complete (ce facă WordPress în mod "
+"implicit), prin urmare, pentru accelerarea încărcării paginilor."
+
+#: image-regenerate-select-crop.php:1323
+msgid "no placeholder"
+msgstr "fără substituent"
+
+#: image-regenerate-select-crop.php:1326
+msgid "force global"
+msgstr "forțează global"
+
+#: image-regenerate-select-crop.php:1329
+msgid "only missing images"
+msgstr "numai imagini lipsă"
+
+#: image-regenerate-select-crop.php:1335
+msgid "Option to Exclude Image Sizes"
+msgstr "Opțiune de excludere mărimi imagine"
+
+#: image-regenerate-select-crop.php:1336
+msgid ""
+"This plugin provides the option to select image sizes that will be excluded from the generation of the new images. By default, all image sizes defined in the system will be allowed (these are programmatically registered by the themes and plugins you activate in your site, without you even knowing about these). You can set up a global configuration, or more specific "
+"configuration for all images attached to a particular post type. If no particular settings are made for a post type, then the default general settings will be used."
+msgstr ""
+"Acest modul oferă opțiunea de a selecta mărimile de imagine care vor fi excluse din generarea de noi imagini. În mod implicit, toate mărimile de imagine definite în sistem vor fi permise (acestea sunt înregistrate prin programare în temele și modulele pe care le activați în situl dvs., fără ca măcar să știți despre acestea). Aveți posibilitatea să setați o configurație "
+"globală sau o configurație mai specifică pentru fiecare din imaginile atașate unui anumit tip de articol. Dacă nu sunt făcute anumite setări pentru un tip de articol, atunci vor fi utilizate setările generale implicite."
+
+#: image-regenerate-select-crop.php:1336
+msgid "The options for which you made some settings are marked with * in the dropdown below."
+msgstr "Opțiunile pentru care ați făcut unele setări sunt marcate cu * în meniul vertical de mai jos."
+
+#: image-regenerate-select-crop.php:1340
+msgid "Apply the settings below for the selected option"
+msgstr "Aplicați setările de mai jos pentru opțiunea selectată"
+
+#: image-regenerate-select-crop.php:1347
+msgid "General settings (used as default for all images)"
+msgstr "Setări generale (utilizate ca implicite pentru toate imaginile)"
+
+#: image-regenerate-select-crop.php:1356
+msgid "Settings for images attached to a "
+msgstr "Setări pentru imaginile atașate la un "
+
+#: image-regenerate-select-crop.php:1373 image-regenerate-select-crop.php:1383 image-regenerate-select-crop.php:1391 image-regenerate-select-crop.php:1399 image-regenerate-select-crop.php:1415 image-regenerate-select-crop.php:1423 image-regenerate-select-crop.php:1538
+msgid "Details"
+msgstr "Detalii"
+
+#: image-regenerate-select-crop.php:1374
+msgid "Global Ignore"
+msgstr "Ignoră global"
+
+#: image-regenerate-select-crop.php:1377
+msgid "This option allows you to exclude globally from the application some of the image sizes that are registered through various plugins and themes options, that you perhaps do not need at all in your application (these are just stored in your folders and database but not actually used/visible on the front-end)."
+msgstr "Această opțiune vă permite să excludeți în mod global din aplicație unele dintre dimensiunile de imagini înregistrate prin diverse module sau opțiuni de teme, de care cel mai probabil nu aveți nevoie în aplicație (aceste sunt doar stocate în directoare și în baza de date dar nu sunt de fapt folosite/vizibile în partea frontală)."
+
+#: image-regenerate-select-crop.php:1378
+msgid "By excluding these, the unnecessary image sizes will not be generated at all."
+msgstr "Excluzându-le pe acestea, mărimile de imagine nenecesare nu se vor genera deloc."
+
+#: image-regenerate-select-crop.php:1383
+msgid "Image Size Info"
+msgstr "Informații mărime imagine"
+
+#: image-regenerate-select-crop.php:1386
+msgid "The quality option is allowing you to control the quality of the images that are generated for each of the image sizes, starting from the quality of the image you upload. This can be useful for performance."
+msgstr "Opțiunea pentru calitate vă permite să controlați calitate imaginilor care sunt generate pentru fiecare dimensiune a imaginii, pornind de la calitatea imaginii încărcate. Acest lucru poate fi util pentru performanță."
+
+#: image-regenerate-select-crop.php:1386
+msgid "However, please be careful not to change the quality of the full image or the quality of the image size that you set as the forced original."
+msgstr "Cu toate acestea, vă rugăm să fiți atenți să nu modificați calitatea imaginii originale sau cea a mărimii de imagine pe care ați setat-o ca original forțat."
+
+#: image-regenerate-select-crop.php:1386
+msgid "Setting a lower quality is recommended for smaller images sizes, that are generated from the full/original file."
+msgstr "Setarea unei calități mai mici este recomandată pentru mărimile mici de imagine, cele care sunt generate din fișierul complet/original."
+
+#: image-regenerate-select-crop.php:1391
+msgid "Hide Preview"
+msgstr "Ascunde previzualizare"
+
+#: image-regenerate-select-crop.php:1394
+msgid "This option allows you to hide from the \"Image Regenerate & Select Crop Settings\" lightbox the details and options for the selected image sizes (when you or other admins are checking the image details, the hidden image sizes will not be shown)."
+msgstr "Această opțiune vă permite să ascundeți din caseta ”Setări pentru regenerare & tăiere selectivă imagine” detaliile și opțiunile mărimilor de imagine selectate (când dvs. sau alți administratori verificați detaliile imaginii, mărimile de imagine ascunse nu se vor arăta)."
+
+#: image-regenerate-select-crop.php:1394
+msgid "This is useful when you want to restrict from other users the functionality of crop or resize for particular image sizes, or to just hide the image sizes you added to global ignore."
+msgstr "Aceasta este utilă când doriți să restricționați altor utilizatori funcționalitatea de tăiere sau scalare pentru anumite mărimi de imagine, sau pur și simplu să ascundeți mărimilor de imagine marcate ca ignoră global."
+
+#: image-regenerate-select-crop.php:1394
+msgid "If you set the image size as ignored or unavailable, this will not be listed in the media screen when the dropdown of image sizes will be shown."
+msgstr "Dacă setați mărimea de imagine ca ignorată sau indisponibilă, aceasta nu va fi listată în ecranul media când se afișează lista verticală cu mărimile de imagine."
+
+#: image-regenerate-select-crop.php:1399 image-regenerate-select-crop.php:3658
+msgid "Force Original"
+msgstr "Forțează ca original"
+
+#: image-regenerate-select-crop.php:1402
+msgid "This option means that when uploading an image, the original image will be replaced completely by the image size you select (the image generated, scaled or cropped to a specific width and height will become the full size for that image going further)."
+msgstr "Această opțiune înseamnă că atunci când se încarcă o imagine, imagine originală va fi înlocuită complet de către mărimea de imagine pe care o selectați (imagine generată, redimensionată sau tăiată la o lățime și înălțime specifică va deveni imagine completă care va fi folosită mai departe pentru acea imagine)."
+
+#: image-regenerate-select-crop.php:1402
+msgid "This can be very useful if you do not use the original image in any of the layouts at the full size, and this might save some storage space."
+msgstr "Aceasta poate fi foarte utilă dacă nu folosiți imaginea originală în nicio machetă la mărimea completă, și acest lucru ar putea salva niște spațiu de stocare."
+
+#: image-regenerate-select-crop.php:1402
+msgid "Leave \"nothing selected\" to keep the full/original image as the file you upload (default WordPress behavior)."
+msgstr "Lăsați ”nimic selectat” pentru a păstra imaginea originală/completă ca și fișierul pe care îl încărcați (comportamentul implicit WordPress)."
+
+#: image-regenerate-select-crop.php:1407
+msgid "Default Crop"
+msgstr "Tăiere implicită"
+
+#: image-regenerate-select-crop.php:1410
+msgid "This option allows you to set a default crop position for the images generated for a particular image size. This option will be applied when you chose to regenerate an individual image or all of these, and also when a new image is uploaded."
+msgstr "Această opțiune vă permite să setați o poziție implicită de tăiere a tuturor imaginilor generate pentru o anumită mărime de imagine. Opțiunea aceasta va fi aplicată când alegeți să regenerați o imagine individuală sau pe toate acestea, și de asemenea când se încarcă o nouă imagine."
+
+#: image-regenerate-select-crop.php:1415 image-regenerate-select-crop.php:1488
+msgid "Cleanup"
+msgstr "Curățare"
+
+#: image-regenerate-select-crop.php:1415 image-regenerate-select-crop.php:1488
+msgid "No cleanup necessary for"
+msgstr "Nu este necesară curățarea pentru"
+
+#: image-regenerate-select-crop.php:1418
+msgid "This option allows you to clean up all the image generated for a particular image size you already have in the application, and that you do not use or do not want to use anymore on the front-end."
+msgstr "Această opțiune vă permite să curățați toate imaginile generate pentru o anumită mărume de imagine pe care deja o aveți în aplicație, și pe care nu o folosiți sau pe care nu mai doriți să o folosiți în partea frontală."
+
+#: image-regenerate-select-crop.php:1418
+msgid "Please be careful, once you click to remove the images for a selected image size, the action is irreversible, the images generated up this point will be deleted from your folders and database records."
+msgstr "Vă rugăm să fiți atenți, din momentul în care apăsați să eliminați imaginile pentru mărimea de imagine selectată, imaginile generate până în acel moment vor fi șterse din directoare și din înregistrările din baza de date."
+
+#: image-regenerate-select-crop.php:1418
+msgid "You can regenerate these later if you click the Regenerate button."
+msgstr "Le puteți regenera mai târziu dacă apăsați butonul de regenerare."
+
+#: image-regenerate-select-crop.php:1426
+msgid "This option allows you to regenerate the images for the selected image size."
+msgstr "Această opțiune vă permite să regenerați imaginile pentru mărimea de imagine selectată."
+
+#: image-regenerate-select-crop.php:1426
+msgid "Please be careful, once you click the button to regenerate the selected image size, the action is irreversible, the images already generated will be overwritten."
+msgstr "Vă rugăm să fiți atenți, din momentul în care apăsați butonul de regenerare pentru mărimea de imagine selectată, acțiunea este ireversibilă, imaginile generate deja vor fi suprascrise."
+
+#: image-regenerate-select-crop.php:1433
+msgid "nothing selected (keep the full/original file uploaded)"
+msgstr "nimic selectat (păstrează fișierul încărcat complet/original)"
+
+#: image-regenerate-select-crop.php:1456
+msgid "global ignore"
+msgstr "ignoră global"
+
+#: image-regenerate-select-crop.php:1464 image-regenerate-select-crop.php:2016 image-regenerate-select-crop.php:2032 image-regenerate-select-crop.php:2179
+msgid "Quality"
+msgstr "Calitate"
+
+#: image-regenerate-select-crop.php:1465
+msgid "Please be aware that your are changing the quality of the images going further for this images size!"
+msgstr "Vă rugăm să aveți în vedere că modificați calitatea imaginilor de acum înainte pentru această mărime de imagine!"
+
+#: image-regenerate-select-crop.php:1471
+msgid "hide"
+msgstr "ascunde"
+
+#: image-regenerate-select-crop.php:1472
+msgid "unavailable"
+msgstr "indisponibilă"
+
+#: image-regenerate-select-crop.php:1476
+msgid "force original"
+msgstr "forțează ca original"
+
+#: image-regenerate-select-crop.php:1480
+msgid "Crop Position"
+msgstr "Poziție tăiere"
+
+#: image-regenerate-select-crop.php:1488
+msgid "Cleanup All"
+msgstr "Curăță tot"
+
+#: image-regenerate-select-crop.php:1504
+msgid "Regenerate All"
+msgstr "Regenerează tot"
+
+#: image-regenerate-select-crop.php:1511
+msgid "Resume"
+msgstr "Continuă"
+
+#: image-regenerate-select-crop.php:1538
+msgid "turn off the WooCommerce background thumbnails regenerate"
+msgstr "dezactivați regenerarea în fundal a miniaturilor prin WooCommerce"
+
+#: image-regenerate-select-crop.php:1541
+msgid "This option allows you to generate only images that match exactly the width and height of the crop/resize requirements, when the option is enabled. Otherwise, the script will generate anything possible for smaller images."
+msgstr "Această opțiune vă permite să generați doar imagini care se potrivesc perfect cu lățimea și înălțimea necesare pentru tăiere/scalare, când aceasta este activată. Altfel, scriptul va genera orice se poate pentru imaginile mai mici."
+
+#: image-regenerate-select-crop.php:1546
+msgid "generate only perfect fit sizes"
+msgstr "se generează doar mărimi care se potrivesc perfect"
+
+#: image-regenerate-select-crop.php:1546
+msgid "attempt to upscale when generating only perfect fit sizes"
+msgstr "încearcă mărirea când se generează doar mărimi care se potrivesc perfect"
+
+#: image-regenerate-select-crop.php:1541
+msgid "This option allows you to upscale the images when using the perfect fit option. This allows that images that have at least the original width close to the expected width or the original height close to the expected height (for example, the original image has 800x600 and the crop size 700x700) to be generated from a upscaled image."
+msgstr "Această opțiune vă permite să măriți imaginile când se folosește opțiunea de portivire perfectă. Acest lucru permite ca imaginile care au cel putin lațimea originală apropiată de lățimea așteptată sau înălțimea originală apropiată de înălțimea așteptată (de exemplu, imaginea originală are 800x600 și mărimea tăiată 700x700) să poată fi generate dintr-o imagine mărită."
+
+#: image-regenerate-select-crop.php:1547
+msgid "regenerate only missing files"
+msgstr "se regenerează doar fișierele lipsă"
+
+#: image-regenerate-select-crop.php:1548
+msgid "This option allows you to regenerate only the images that do not exist, without overriding the existing ones."
+msgstr "Această opțiune vă permite să regenerați doar imaginile care nu există, fără a le suprascrie pe cele existente."
+
+#: image-regenerate-select-crop.php:1547
+msgid "regenerate/cleanup only featured images"
+msgstr "se regenerează/curăță doar imaginile reprezentative"
+
+#: image-regenerate-select-crop.php:1548
+msgid "This option allows you to regenerate/cleanup only the images that are set as featured image for any of the posts."
+msgstr "Această opțiune vă permite să regenerați/curățați doar imaginile care sunt setate ca imagine reprezentativă pentru oricare dintre articole."
+
+#: image-regenerate-select-crop.php:1549
+msgid "no restriction, generate anything that can be generated"
+msgstr "fără restricții, se generează orice se poate genera"
+
+#: image-regenerate-select-crop.php:1538
+msgid "sync ignored image sizes with EWWW Image Optimizer plugin"
+msgstr "sincronizați mărimile de imagine ignorate cu modulul EWWW Image Optimizer"
+
+#: image-regenerate-select-crop.php:1538
+msgid "This option allows you to sync <em>disable creation</em> image sizes from <b>EWWW Image Optimizer</b> plugin with the <em>global ignore</em> image sizes from <b>Image Regenerate & Select Crop</b>. In this way, when you update the settings in one of the plugins, the settings will be synced in the other plugin."
+msgstr "Această opțiune vă permite să sincronizați mărimile de imagine <em>dezactivate de la generare</em> din modulul <b>EWWW Image Optimizer</b> cu mărimile de imagine <em>ignorate global</em> în <b>Image Regenerate & Select Crop</b>. În acest fel, când actualizați setările într-unul dintre module, setările vor fi sincronizate în celălalt modul."
+
+#: image-regenerate-select-crop.php:1538
+msgid "Other Settings"
+msgstr "Alte Setări"
+
+#: image-regenerate-select-crop.php:1538
+msgid "General Cleanup"
+msgstr "Curățare generală"
+
+#: image-regenerate-select-crop.php:1538
+msgid "show small buttons in the media screen"
+msgstr "afișare butoane mici în ecranul media"
+
+#: image-regenerate-select-crop.php:1538
+msgid "filter and expose the image sizes available for the attachment display settings in the media dialog (any registered available size, even when there is no explicit filter applied)"
+msgstr "filtrare și dezvăluire a mărimilor de imagine disponibile pentru setările de afișare ale atașamentului în dialogul media (orice mărime înregistrată disponibilă, chiar dacă nu este aplicat nici un filtru explicit)"
+
+#: image-regenerate-select-crop.php:1539
+msgid "do not cleanup the settings after the plugin is deactivated"
+msgstr "nu curățați setările după ce modulul este dezactivat"
+
+#: image-regenerate-select-crop.php:1538
+msgid "Cleanup unused files and keep currently registered sizes files"
+msgstr "Curățare fișiere nefolosite și păstrare fișiere ale mărimilor înregistrate momentan"
+
+#: image-regenerate-select-crop.php:1538
+msgid "This type of cleanup is performed for all the attachments, and it removes any attachment unused file and keeps only the files associated with the currently registered image sizes. This action is also changing the attachment metadata in the database, and it is irreversible."
+msgstr "Acest tip de curățare se aplică tuturor atașamentelor, și șterge orice fișier nefolosit al atașamentului, păstrând doar fișierele asociate cu mărimile de imagine înregistrate momentan. Această acțiune schimbă de asemenea și metadata atașamentului în baza de date, și este ireversibilă."
+
+#: image-regenerate-select-crop.php:1538
+msgid "Cleanup Unused"
+msgstr "Curățare nefolosite"
+
+#: image-regenerate-select-crop.php:1538
+msgid "It is recommended to run the cleanup using the command line tools."
+msgstr "Este recomandat să rulați curățare folosind instrumente de linie de comandă."
+
+#: image-regenerate-select-crop.php:1538
+msgid "Keep only the original/full size files"
+msgstr "Păstrare doar a fișierul mărimii originale/întregi"
+
+#: image-regenerate-select-crop.php:1538
+msgid "This type of cleanup is performed for all the attachments, and it keeps only the file associated with the original/full size. This action is also changing the attachment metadata in the database, and it is irreversible. After this process is done, you need to regenerate the files for the desired image sizes."
+msgstr "Acest tip de curățare se aplică tuturor atașamentelor, și păstrează doar fișierul asociat cu mărimea orginală/întreagă. Această acțiune schimbă de asemenea și metadata atașamentului în baza de date, și este ireversibilă. După ce procesul este gata, va trebui să regenerați fișierele pentru mărimile de imagine dorite."
+
+#: image-regenerate-select-crop.php:1538
+msgid "Cleanup Raw"
+msgstr "Curățare brută"
+
+#: image-regenerate-select-crop.php:1538
+msgid "Raw Cleanup"
+msgstr "Curățare brută"
+
+#: image-regenerate-select-crop.php:1538
+msgid "show attachment image sizes summary in the media screen"
+msgstr "afișare sumar mărimi de imagine atașament în ecranul media"
+
+#: image-regenerate-select-crop.php:1538
+msgid "This action will remove all images generated for this attachment, except for the original file. Are you sure you want proceed?"
+msgstr "Această acțiune va înlătura toate imaginile genereate pentru acest atașament, exectând fișierul original. Siguri doriți să continuați?"
+
+#: image-regenerate-select-crop.php:1538
+msgid "You can see below some additional information about the files generated, recorded in the database, also files left behind from image sizes that are no longer registered in your site, or other image processing (but not linked in the database anymore, hence, probably no used anymore)."
+msgstr "Puteți vedea mai jos câteva informații adiționale despre fișierele generate, înregistrate în baza de date, de asemenea fișiere rămase de la mărimi de imagine care nu mai sunt înregistrate în situl dumneavoastră, sau de la alte procesări de imagini (dar care nu mai sunt înregistrate în baza de date, așadar, probabil nefolosite)."
+
+#: image-regenerate-select-crop.php:1538
+msgid "currently registered"
+msgstr "momentan înregistrată"
+
+#: image-regenerate-select-crop.php:1538
+msgid "not registered anymore"
+msgstr "nu mai este înregistrată"
+
+#: image-regenerate-select-crop.php:1538
+msgid "never registered"
+msgstr "niciodată înregistrată"
+
+#: image-regenerate-select-crop.php:1538
+msgid "This image size shares the same file as the full size (the original image) and it cannot be altered."
+msgstr "Această mărime de imagine partajează același fișier ca mărimea completă (imaginea originală) și acesta nu poate fi modificat."
+
+#: image-regenerate-select-crop.php:1780
+msgid "Click to generate a crop of the image from this position"
+msgstr "Apăsați ca să generați o tăiere a imaginii din această poziție"
+
+#: image-regenerate-select-crop.php:1957
+msgid "Image Details & Options"
+msgstr "Detalii & opțiuni imagine"
+
+#: image-regenerate-select-crop.php:1965
+msgid "The original image"
+msgstr "Imaginea originală"
+
+#: image-regenerate-select-crop.php:1965
+msgid "file size"
+msgstr "mărime fișier"
+
+#: image-regenerate-select-crop.php:1966
+msgid "File"
+msgstr "Fișier"
+
+#: image-regenerate-select-crop.php:1970
+msgid "Image size details & generated image"
+msgstr "Detalii mărime imagine & imagine generată"
+
+#: image-regenerate-select-crop.php:1971
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: image-regenerate-select-crop.php:1986 image-regenerate-select-crop.php:2002 image-regenerate-select-crop.php:2005 image-regenerate-select-crop.php:2011 image-regenerate-select-crop.php:2019
+msgid "Crop image"
+msgstr "Tăiere imagine"
+
+#: image-regenerate-select-crop.php:1988 image-regenerate-select-crop.php:2013 image-regenerate-select-crop.php:2021
+msgid "Scale image"
+msgstr "Redimensionare imagine"
+
+#: image-regenerate-select-crop.php:1997
+msgid "NOT FOUND"
+msgstr "NU A FOST GĂSIT"
+
+#: image-regenerate-select-crop.php:2024
+msgid "The width and height of the original image are smaller than the requested image size."
+msgstr "Lățimea și înălțimea imaginii originale sunt mai mici decât mărimea de imagine cerută."
+
+#: image-regenerate-select-crop.php:2052 image-regenerate-select-crop.php:2187
+msgid "Delete"
+msgstr "Șterge"
+
+#: image-regenerate-select-crop.php:2056
+msgid "Info"
+msgstr "Informații"
+
+#: image-regenerate-select-crop.php:2056
+msgid "Default quality"
+msgstr "Calitate implicită"
+
+#: image-regenerate-select-crop.php:2063
+msgid "File size"
+msgstr "Mărime fișier"
+
+#: image-regenerate-select-crop.php:2080
+msgid "The file is missing!"
+msgstr "Fișierul lipsește!"
+
+#: image-regenerate-select-crop.php:2085 image-regenerate-select-crop.php:2157 image-regenerate-select-crop.php:2233 image-regenerate-select-crop.php:2835 image-regenerate-select-crop.php:3054
+msgid "Something went wrong!"
+msgstr "Ceva a decurs greșit!"
+
+#: image-regenerate-select-crop.php:2216 image-regenerate-select-crop.php:2832 image-regenerate-select-crop.php:3051
+msgid "Done!"
+msgstr "Gata!"
+
+#: image-regenerate-select-crop.php:2605 image-regenerate-select-crop.php:2607 image-regenerate-select-crop.php:2612
+msgid "scale"
+msgstr "redimensionare"
+
+#: image-regenerate-select-crop.php:2605 image-regenerate-select-crop.php:2612
+msgid "to max width of"
+msgstr "la lățime maximă de"
+
+#: image-regenerate-select-crop.php:2607
+msgid "to max height of"
+msgstr "la înălțime maximă de"
+
+#: image-regenerate-select-crop.php:2610
+msgid "crop"
+msgstr "tăiere"
+
+#: image-regenerate-select-crop.php:2610
+msgid "of"
+msgstr "la"
+
+#: image-regenerate-select-crop.php:2612
+msgid "or to max height of"
+msgstr "sau la înălțime maximă de"
+
+#: image-regenerate-select-crop.php:2757
+msgid "REMAINING TO CLEAN UP"
+msgstr "RĂMÂN SĂ SE CUREȚE"
+
+#: image-regenerate-select-crop.php:2757
+msgid "REMAINING TO RAW CLEAN UP"
+msgstr "RĂMÂN SĂ SE CUREȚE BRUT"
+
+#: image-regenerate-select-crop.php:2781
+msgid "Cleanup the metadata"
+msgstr "Curățarea metadatelor"
+
+#: image-regenerate-select-crop.php:2790
+msgid "The image "
+msgstr "Imaginea "
+
+#: image-regenerate-select-crop.php:2790
+msgid "has been deleted."
+msgstr "s-a șters."
+
+#: image-regenerate-select-crop.php:2795 image-regenerate-select-crop.php:2805
+msgid "The image"
+msgstr "Imaginea"
+
+#: image-regenerate-select-crop.php:2795
+msgid "could not be deleted (it is the original file)."
+msgstr "nu a putut fi șters (este fișierul original)."
+
+#: image-regenerate-select-crop.php:2795
+msgid "could not be deleted."
+msgstr "nu a putut fi șters."
+
+#: image-regenerate-select-crop.php:2805
+msgid "could not be found."
+msgstr "nu s-a găsit."
+
+#: image-regenerate-select-crop.php:2881
+msgid "The original filesize is too big and the server does not have enough resources to process it."
+msgstr "Dimensiunea fișierului original este prea mare și serverul nu are resurse suficiente pentru a-l procesa."
+
+#. Translators: %1$s - server side error.
+#: image-regenerate-select-crop.php:2888
+msgid ""
+"<b>Unfortunately, there was an error</b>. Some of the execution might not have been successful. This can happen in when: <br>&bull; the image from which the script is generating the specified image size does not have the <b>proper size</b> for resize/crop to a specific width and height,<br>&bull; the attachment <b>metadata is broken</b>,<br>&bull; the original <b>file is "
+"missing</b>,<br>&bull; the image that is processed is <b>very big</b> (rezolution or size) and the <b>allocated memory</b> on the server is not enough to handle the request,<br>&bull; the overall processing on your site is <b>too intensive</b>. <br><br>See the details: %1$s"
+msgstr ""
+"<b>Din păcate, a apărut o eroare</b>. O parte din execuție s-ar putea să nu fi reușit. Acest lucru se poate întâmpla când: <br>&bull; imaginea din care scriptul generează mărimea specificată a imaginii nu are dimensiunea <b>potrivită</b> pentru redimensionare/tăiere la o anumită lățime și înălțime,<br>&bull; atașamentul are <b>metadatele corupte</b>,<br>&bull; fișierul "
+"original <b>lipsește</b>,<br>&bull; imaginea care este procesată este <b>foarte mare</b> (rezoluție sau dimensiune) și <b>memoria alocată</b> de pe server nu este suficientă pentru a face față cererii,<br>&bull; procesarea generală pe site-ul dvs. este <b>prea intensă</b>.<br><br>Vedeți detaliile: %1$s"
+
+#. Translators: %1$s - server side error.
+#: image-regenerate-select-crop.php:2887
+msgid "<b>Unfortunately, there was an error</b>. Some of the execution might not have been successful. This can happen when: <br>&bull; the image you were trying to delete is <b>the original</b> file,<br>&bull; the image size was pointing to the <b>the original</b> and it should not be removed,<br>&bull; the <b>file is missing</b>. <br><br>See the details: %1$s"
+msgstr "<b>Din păcate, a apărut o eroare</b>. O parte din execuție s-ar putea să nu fi reușit. Acest lucru se poate întâmpla când: <br>&bull; imaginea pe care ați încercat să o ștergeți este fișierul <b>original</b>,<br>&bull; mărimea de imagine face referire la <b>original</b> și acesta nu at trebui șters,<br>&bull; <b>fișierul lipsește</b>. <br><br>Vedeți detaliile: %1$s"
+
+#: image-regenerate-select-crop.php:2950
+msgid "Skipping the regeneration or this file (as per settings)."
+msgstr "Se sare peste regenerarea acestui fișier (ca în setări)."
+
+#: image-regenerate-select-crop.php:2950
+msgid "Skipping the cleanup or this file (it is the original file)."
+msgstr "Se sare peste curățarea acestui fișier (acesta este fișierul original)."
+
+#: image-regenerate-select-crop.php:2951
+msgid "Skipping the cleanup or this file (the size is registered)."
+msgstr "Se sare peste curățarea acestui fișier (mărimea de imagine este înregistrată)."
+
+#: image-regenerate-select-crop.php:2960
+msgid "REMAINING TO REGENERATE"
+msgstr "RĂMÂN SĂ SE REGENEREZE"
+
+#: image-regenerate-select-crop.php:2982 image-regenerate-select-crop.php:2984 image-regenerate-select-crop.php:2996 image-regenerate-select-crop.php:2998 sirsc-wp-cli.php:136
+msgid "Could not generate, the original is too small."
+msgstr "Nu se poate genera, originalul este prea mic."
+
+#: image-regenerate-select-crop.php:3002
+msgid "Could not generate, the original is missing."
+msgstr "Nu se poate genera, originalul lipsește."
+
+#: sirsc-wp-cli.php:140
+msgid "Internal Server Error"
+msgstr "Eroare internă de server"
+
+#: image-regenerate-select-crop.php:3004
+msgid "Could not generate, the original file is missing."
+msgstr "Nu se poate genera, fișierul original lipsește."
+
+#: image-regenerate-select-crop.php:3291
+msgid "Medium size crop"
+msgstr "Decupare mărime medie"
+
+#: image-regenerate-select-crop.php:3300
+msgid "Large size crop"
+msgstr "Decupare mărime mare"
+
+#: image-regenerate-select-crop.php:3321
+msgid "Use Custom Image Sizes"
+msgstr "Folosește mărimi personalizate de imagini"
+
+#: image-regenerate-select-crop.php:3339
+msgid "You can override the default crop for the medium and large size of the images. Please note that the crop will apply to the designated image size only if it has both with and height defined (as you know, when you set 0 to one of the sizes, the image will be scaled proportionally, hence, the crop cannot be applied)."
+msgstr "Puteți suprascrie tăierea implicită pentru imaginile medii și mari. Să aveți în vedere că tăierea se aplică mărimii de imagine desemnată doar dacă aceasta are și lățimea și înălțimea definite (după cum știți, când setați 0 la una dintre dimensiuni, imaginea va fi scalată proporțional, așadar, tăierea nu poate fi aplicată)."
+
+#: image-regenerate-select-crop.php:3354
+msgid "Crop medium image to exact dimensions (normally medium images are proportional)"
+msgstr "Decupează imaginea medie la dimensiuni exacte (în mod normal imaginile medii sunt proporționale)"
+
+#: image-regenerate-select-crop.php:3365
+msgid "Crop large image to exact dimensions (normally large images are proportional)"
+msgstr "Decupează imaginea mare la dimensiuni exacte (în mod normal imaginile mari sunt proporționale)"
+
+#: image-regenerate-select-crop.php:3366
+msgid "Featured image size in meta box"
+msgstr "Mărime imagine promovată în casetă meta"
+
+#: image-regenerate-select-crop.php:3367
+msgid "This setting allows you to change the post thumbnail image size that is displayed in the meta box. Leave empty if you want to use the default image size that is set by WordPress and your theme."
+msgstr "Această setare vă premite să schimbați mărimea de imagine a miniaturii pentru articol ce se afișează în caseta meta. Lăsați gol dacă doriți să folosiți mărimea de imagine implicită care este setată de către WordPress și tema dumneavoastră."
+
+#: image-regenerate-select-crop.php:3377
+msgid "Use this feature wisely."
+msgstr "Utilizați această opțiune cu precauție."
+
+#: image-regenerate-select-crop.php:3377
+msgid "With great power comes great responsibility."
+msgstr "Cu putere mare vine responsabilitate mare."
+
+#: image-regenerate-select-crop.php:3378
+msgid "Please consult with a front-end developer before deciding to define more image sizes below (and in general in the application), as most of the times just updating the native image sizes settings and updating the front-end code (the theme) is enough."
+msgstr "Vă rugăm să consultați un front-end developer înainte de a decide să definiți mai jos mai multe mărimi de imagine (și în general în aplicație), pentru că de cele mai multe ori este suficient doar să actualizați dimensiunile native de imagine și codul din partea frontală (tema)."
+
+#: image-regenerate-select-crop.php:3383
+msgid "If you decided it is absolutely necessary to have new custom image sizes, you can make the setup below and these will be registered programmatically in your application if you configured these correctly (you have to input the size name and at least the width or height)."
+msgstr "Dacă ați decis că este absolut necesar să aveți noi mărimi personalizate de imagine, puteți face setările mai jos și aceastea vor fi înregistrate programatic în aplicația dumneavoastră, dacă sunt configurae corect (trebuie să introduceți denumirea dimensiunii și cel puțin lățimea sau înălțimea)."
+
+#: image-regenerate-select-crop.php:3384
+msgid "However, please make sure you only define these below if you are sure this is really necessary, as, any additional image size registered in your application is decreasing the performance on the images upload processing and also creates extra physical files on your hosting."
+msgstr "Cu toate acestea, vă rugăm să vă asigurați că le definiți mai jos doar dacă sunteți siguri că este chiar necesar, pentru că orice mărime de imagine adițională înregistrată în aplicație scade performanța la procesarea încărcării imaginilor și de asemenea creează fișiere fizice suplimentare la găzduire."
+
+#: image-regenerate-select-crop.php:3385
+msgid "Also, please note that changing the image sizes names or width and height values is not recommended after these were defined and your application started to create images for these specifications."
+msgstr "În plus, vă rugăm să notați că modificarea denumirii sau a valorilor lățimii și înălțimii pentru mărimile de imagine nu se recomandă după ce acestea au fost definite și aplicația dumneavoastră a început să genereze imagini pentru specificațiile respective."
+
+#: image-regenerate-select-crop.php:3408
+msgid "Image Sizes Name"
+msgstr "Denumire mărime imagine"
+
+#: image-regenerate-select-crop.php:3409
+msgid "Max Width"
+msgstr "Lățime maximă"
+
+#: image-regenerate-select-crop.php:3410
+msgid "Max Height"
+msgstr "Înălțime maximă"
+
+#: image-regenerate-select-crop.php:3411
+msgid "Crop"
+msgstr "Decupare"
+
+#: image-regenerate-select-crop.php:3435
+msgid "(leave empty to remove this image size)"
+msgstr "(lasă gol pentru a elimina această mărime de imagine)"
+
+#: image-regenerate-select-crop.php:3441 image-regenerate-select-crop.php:3447
+msgid "(value in pixels)"
+msgstr "(valoare în pixeli)"
+
+#: image-regenerate-select-crop.php:3451 image-regenerate-select-crop.php:3476
+msgid "Crop the image to exact dimensions"
+msgstr "Decupează imaginea la dimensiuni exacte"
+
+#: image-regenerate-select-crop.php:3452
+msgid "See/manage other settings"
+msgstr "Vezi/administrează alte setări"
+
+#: image-regenerate-select-crop.php:3476
+msgid "(normally images are proportional)"
+msgstr "(în mod normal imaginile sunt proporționale)"
+
+#: image-regenerate-select-crop.php:3613
+msgid "The advanced custom rules you configure below are global and will override all the other settings you set above."
+msgstr "Regulile personalizate avansate pe care le configurați mai jos sunt globale și vor suprascrie toate celelalte setări făcute mai sus."
+
+#: image-regenerate-select-crop.php:3613
+msgid "Please be aware that the custom rules will apply only if you actually set up the post to use one of the rules below, and only then upload images to that post."
+msgstr "Vă rugăm să aveți în vedere că regulile personalizate se vor aplica numai dacă mai întâi setați articolul să folosească una dintre regulile de mai jos, și abia apoi încărcați imaginile la acel articol."
+
+#: image-regenerate-select-crop.php:3618
+msgid "Advanced custom rules based on the post where the image will be uploaded"
+msgstr "Reguli personalizate avansate în funcție de articolul unde se încarcă imaginea"
+
+#: image-regenerate-select-crop.php:3620
+msgid ""
+"Very important: the order in which the rules are checked and have priority is: post ID, post type, post format, post parent, post tags, post categories, other taxonomies. Any of the rules that match first in this order will apply for the images that are generated when you upload images to that post (and the rest of the rules will be ignored). You can suppress at any time "
+"any of the rules and then enable these back as it suits you."
+msgstr ""
+"Foarte important: ordinea în care se verifică și în care au prioritate regulile este: ID articol, tip articol, format articol, părinte articol, etichete articol, categorii articol, alte taxonomii. Oricare dintre reguli care se potrivește prima în această ordine se va aplica pentru imaginile care se generează când încărcați imagini la acel articol (și restul regulilor vor fi "
+"ignorate). Puteți suprima în orice moment oricare dintre reguli ca apoi să le activați la loc după cum vă este convenabil."
+
+#: image-regenerate-select-crop.php:3650
+msgid "The post has"
+msgstr "Articolul are"
+
+#: image-regenerate-select-crop.php:3651
+msgid "Ex: Categories"
+msgstr "Ex: Categorii"
+
+#: image-regenerate-select-crop.php:3654
+msgid "Value"
+msgstr "Valoare"
+
+#: image-regenerate-select-crop.php:3655
+msgid "Ex: gallery,my-photos"
+msgstr "Ex: galerie,pozele-mele"
+
+#: image-regenerate-select-crop.php:3659
+msgid "Ex: large"
+msgstr "Ex: large"
+
+#: image-regenerate-select-crop.php:3662
+msgid "Generate only these image sizes for the rule"
+msgstr "Generează doar aceste mărimi de imagine pentru regulă"
+
+#: image-regenerate-select-crop.php:3663
+msgid "Ex: thumbnail, large"
+msgstr "Ex: thumbnail, large"
+
+#: image-regenerate-select-crop.php:3666
+msgid "Suppress"
+msgstr "Suprimă"
+
+#: image-regenerate-select-crop.php:3748
+msgid "This rule is SUPPRESSED"
+msgstr "Regula este SUPRIMATĂ"
+
+#: image-regenerate-select-crop.php:3750
+msgid "This rule is ACTIVE"
+msgstr "Regula este ACTIVĂ"
+
+#. Translators: %1$s type, %2$s value, %3$s only.
+#: image-regenerate-select-crop.php:3757
+msgid "uploading images to a post that has %1$s as %2$s will generate only the %3$s sizes."
+msgstr "încărcând imagini la un articol care are %1$s ca %2$s se vor genera doar mărimile %3$s."
+
+#. Translators: %1$s type, %2$s value, %3$s original, %4$s only.
+#: image-regenerate-select-crop.php:3765
+msgid "uploading images to a post that has %1$s as %2$s will force the original image to %3$s size and will generate only the %4$s sizes."
+msgstr "încărcând imagini la un articol care are %1$s ca %2$s se va forța imaginea originală la dimensiunea %3$s și se vor genera doar mărimile %4$s."
+
+#: image-regenerate-select-crop.php:3890
+msgid "Plugin URL"
+msgstr "URL modul"
+
+#: sirsc-adons.php:72 sirsc-adons.php:188 sirsc-adons.php:189 sirsc-adons.php:340
+msgid "Features Manager"
+msgstr "Manager extensii"
+
+#: sirsc-adons.php:123
+msgid "This extension allows you to export and import the plugin settings from an instance to another. The export includes the general settings, the advanced rules, the media settings, and the additional sizes manages with this plugin."
+msgstr "Această extensie vă permite să exportați și să importați setările modulului dintr-o instanță în alta. Exportul include setările generale, regulile avansate, setările media și mărimile de imagine adiționale administrate cu aces modul."
+
+#: sirsc-adons.php:132
+msgid "This extension allows you to rename the images files (bulk rename, individual rename or image rename on upload). Also, the extension provides the feature to override the attachments attributes based on the feature settings."
+msgstr "Această extensie vă permite să redenumiți fișierele imaginilor (redenumire în masă, redenumire individuală sau redenumire imagine la încărcare). De asemenea, extensia furnizează posibilitatea de a suprascrie atributele atașamentelor în funcție de setările făcute."
+
+#: sirsc-adons.php:141
+msgid "This extension allows you to see details about your application uploads folder: the total files size, the number of folders (and sub-folders), the number of files."
+msgstr "Această extensie vă permite să vedeți detalii despre directorul uploads al aplicației: mărime totală a fișierelor, numărul de directoare (și sub-directoare), numărul de fișiere."
+
+#: sirsc-adons.php:150
+msgid "This extension allows you to analyze the files from your uploads folder (even the orphaned files, these not associated with attachment records in the database) and see details about their size, MIME type, attachment IDs, images sizes, etc."
+msgstr "Această extensie vă permite să analizați fișierele din directorul uploads (chiar și fișierele orfane, acelea neasociate cu înregistrări de atașament în baza de date) și să vedeți detalii despre dimensiune, tip MIME, ID-uri atașament, mărimi de imagini, etc."
+
+#: sirsc-adons.php:298
+msgid "Activate"
+msgstr "Activează"
+
+#: sirsc-adons.php:302
+msgid "Deactivate"
+msgstr "Dezactivează"
+
+#: sirsc-adons.php:302
+msgid "Enabled"
+msgstr "Pornit"
+
+#: sirsc-adons.php:302
+msgid "Disabled"
+msgstr "Oprit"
+
+#: sirsc-adons.php:306
+msgid "Download"
+msgstr "Descarcă"
+
+#: sirsc-adons.php:310
+msgid "Purchase"
+msgstr "Cumpără"
+
+#: sirsc-adons.php:310
+msgid "&euro; %1$s / year"
+msgstr "&euro; %1$s / an"
+
+#: sirsc-adons.php:310
+msgid "Free"
+msgstr "Gratuit"
+
+#: sirsc-adons.php:310
+msgid "License Key"
+msgstr "Cheie licență"
+
+#: sirsc-adons.php:314
+msgid "Remove"
+msgstr "Șterge"
+
+#: sirsc-adons.php:346
+msgid "You will see here the available extensions compatible with the installed plugin version."
+msgstr "Aici veți vedea extensiile disponibile compatibile cu versiunea modulului instalat."
+
+#: sirsc-adons.php:347
+msgid "You can activate and deactivate these at any time."
+msgstr "Le puteți activa și dezactiva în orice moment."
+
+#: sirsc-adons.php:359
+msgid "No extension available at the moment."
+msgstr "Nici o extensie disponibilă momentan."
+
+#: sirsc-wp-cli.php:27
+msgid "Please specify the site id (1 if not multisite)."
+msgstr "Vă rugăm să săecificați ID-ul sitului (1 dacp nu este multisit)."
+
+#: sirsc-wp-cli.php:139
+msgid "Could not generate, the original file is missing"
+msgstr "Nu se poate genera, fișierul original lipsește"
+
+#: sirsc-wp-cli.php:195 sirsc-wp-cli.php:263
+msgid "was removed"
+msgstr "s-a șters"
+
+#: sirsc-wp-cli.php:199 sirsc-wp-cli.php:267
+msgid "Could not remove"
+msgstr "Nu s-a putut șterge"
+
+#: sirsc-wp-cli.php:199 sirsc-wp-cli.php:267
+msgid "The image is missing or it is the original file."
+msgstr "Imaginea lipsește sau este fișierul original."
+
+#. Plugin URI of the plugin/theme
+msgid "https://iuliacazan.ro/image-regenerate-select-crop/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Regenerate and crop images, details and actions for image sizes registered and image sizes generated, clean up, placeholders, custom rules, register new image sizes, crop medium settings, WP-CLI commands."
+msgstr "Regenerare și tăiere imagini, detalii și acțiuni pentru mărimi de imagine înregistrate și mărimi de imagine generate, curățare, substituenți, reguli personalizate, înregistrare mărimi noi de imagine, setări de tăiere medie, comenzi WP-CLI."
+
+#. Author of the plugin/theme
+msgid "Iulia Cazan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/iulia-cazan"
+msgstr ""

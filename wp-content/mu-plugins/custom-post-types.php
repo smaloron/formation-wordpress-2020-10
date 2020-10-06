@@ -56,6 +56,7 @@ function setCustomPostTypes()
         'rewrite' => [
             'slug' => 'formateurs'
         ],
+        'supports' => ['title', 'editor', 'thumbnail']
     ]);
 }
 
@@ -72,3 +73,15 @@ function getMoreInfosLink()
 }
 
 add_filter('excerpt_more', 'getMoreInfosLink');
+
+/****************************************
+ *  Définition de tailles d'images personnalisées
+ ****************************************/
+
+ function applicationThemeFeatures(){
+    add_image_size('teacherSquare', 300, 300, true);
+    add_image_size('teacherPortrait', 200, 600, true);
+    add_image_size('teacherLandscape', 800, 200, true);
+ }
+
+ add_action('after_setup_theme', 'applicationThemeFeatures');
