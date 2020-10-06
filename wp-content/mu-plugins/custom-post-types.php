@@ -34,7 +34,11 @@ function setCustomPostTypes()
             'singular_name' => 'Programme de formation'
         ],
         'menu_icon' => 'dashicons-welcome-learn-more',
-        'show_in_rest' => true
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'rewrite' => [
+            'slug' => 'formations'
+        ],
     ]);
 
     register_post_type('trainer', [
@@ -47,7 +51,11 @@ function setCustomPostTypes()
             'singular_name' => 'Formateur'
         ],
         'menu_icon' => 'dashicons-smiley',
-        'show_in_rest' => true
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'rewrite' => [
+            'slug' => 'formateurs'
+        ],
     ]);
 }
 
