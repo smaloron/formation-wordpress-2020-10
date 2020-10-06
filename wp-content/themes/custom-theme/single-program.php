@@ -1,5 +1,6 @@
 <?php
-get_header();
+// Affichage des programmes de formation
+get_header(); 
 ?>
 
 <main id="site-content" role="main" class="container">
